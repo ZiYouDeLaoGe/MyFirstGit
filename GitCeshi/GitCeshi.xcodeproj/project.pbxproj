@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B409CF651793F9510079CAD6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B409CF641793F9510079CAD6 /* UIKit.framework */; };
+		B409CF671793F9510079CAD6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B409CF661793F9510079CAD6 /* Foundation.framework */; };
+		B409CF691793F9510079CAD6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B409CF681793F9510079CAD6 /* CoreGraphics.framework */; };
+		B409CF6F1793F9510079CAD6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B409CF6D1793F9510079CAD6 /* InfoPlist.strings */; };
+		B409CF711793F9510079CAD6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B409CF701793F9510079CAD6 /* main.m */; };
+		B409CF751793F9510079CAD6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B409CF741793F9510079CAD6 /* AppDelegate.m */; };
+		B409CF771793F9510079CAD6 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B409CF761793F9510079CAD6 /* Default.png */; };
+		B409CF791793F9510079CAD6 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B409CF781793F9510079CAD6 /* Default@2x.png */; };
+		B409CF7B1793F9510079CAD6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B409CF7A1793F9510079CAD6 /* Default-568h@2x.png */; };
+		B409CF7E1793F9510079CAD6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B409CF7D1793F9510079CAD6 /* ViewController.m */; };
+		B409CF811793F9510079CAD6 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = B409CF7F1793F9510079CAD6 /* ViewController_iPhone.xib */; };
+		B409CF841793F9510079CAD6 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = B409CF821793F9510079CAD6 /* ViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B409CF611793F9510079CAD6 /* GitCeshi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitCeshi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B409CF641793F9510079CAD6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B409CF661793F9510079CAD6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B409CF681793F9510079CAD6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B409CF6C1793F9510079CAD6 /* GitCeshi-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GitCeshi-Info.plist"; sourceTree = "<group>"; };
+		B409CF6E1793F9510079CAD6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B409CF701793F9510079CAD6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B409CF721793F9510079CAD6 /* GitCeshi-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GitCeshi-Prefix.pch"; sourceTree = "<group>"; };
+		B409CF731793F9510079CAD6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B409CF741793F9510079CAD6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B409CF761793F9510079CAD6 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B409CF781793F9510079CAD6 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B409CF7A1793F9510079CAD6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B409CF7C1793F9510079CAD6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B409CF7D1793F9510079CAD6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B409CF801793F9510079CAD6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		B409CF831793F9510079CAD6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B409CF5E1793F9510079CAD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B409CF651793F9510079CAD6 /* UIKit.framework in Frameworks */,
+				B409CF671793F9510079CAD6 /* Foundation.framework in Frameworks */,
+				B409CF691793F9510079CAD6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B409CF581793F9510079CAD6 = {
+			isa = PBXGroup;
+			children = (
+				B409CF6A1793F9510079CAD6 /* GitCeshi */,
+				B409CF631793F9510079CAD6 /* Frameworks */,
+				B409CF621793F9510079CAD6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B409CF621793F9510079CAD6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B409CF611793F9510079CAD6 /* GitCeshi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B409CF631793F9510079CAD6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B409CF641793F9510079CAD6 /* UIKit.framework */,
+				B409CF661793F9510079CAD6 /* Foundation.framework */,
+				B409CF681793F9510079CAD6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B409CF6A1793F9510079CAD6 /* GitCeshi */ = {
+			isa = PBXGroup;
+			children = (
+				B409CF731793F9510079CAD6 /* AppDelegate.h */,
+				B409CF741793F9510079CAD6 /* AppDelegate.m */,
+				B409CF7C1793F9510079CAD6 /* ViewController.h */,
+				B409CF7D1793F9510079CAD6 /* ViewController.m */,
+				B409CF7F1793F9510079CAD6 /* ViewController_iPhone.xib */,
+				B409CF821793F9510079CAD6 /* ViewController_iPad.xib */,
+				B409CF6B1793F9510079CAD6 /* Supporting Files */,
+			);
+			path = GitCeshi;
+			sourceTree = "<group>";
+		};
+		B409CF6B1793F9510079CAD6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B409CF6C1793F9510079CAD6 /* GitCeshi-Info.plist */,
+				B409CF6D1793F9510079CAD6 /* InfoPlist.strings */,
+				B409CF701793F9510079CAD6 /* main.m */,
+				B409CF721793F9510079CAD6 /* GitCeshi-Prefix.pch */,
+				B409CF761793F9510079CAD6 /* Default.png */,
+				B409CF781793F9510079CAD6 /* Default@2x.png */,
+				B409CF7A1793F9510079CAD6 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B409CF601793F9510079CAD6 /* GitCeshi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B409CF871793F9510079CAD6 /* Build configuration list for PBXNativeTarget "GitCeshi" */;
+			buildPhases = (
+				B409CF5D1793F9510079CAD6 /* Sources */,
+				B409CF5E1793F9510079CAD6 /* Frameworks */,
+				B409CF5F1793F9510079CAD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GitCeshi;
+			productName = GitCeshi;
+			productReference = B409CF611793F9510079CAD6 /* GitCeshi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B409CF591793F9510079CAD6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = demo;
+			};
+			buildConfigurationList = B409CF5C1793F9510079CAD6 /* Build configuration list for PBXProject "GitCeshi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B409CF581793F9510079CAD6;
+			productRefGroup = B409CF621793F9510079CAD6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B409CF601793F9510079CAD6 /* GitCeshi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B409CF5F1793F9510079CAD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B409CF6F1793F9510079CAD6 /* InfoPlist.strings in Resources */,
+				B409CF771793F9510079CAD6 /* Default.png in Resources */,
+				B409CF791793F9510079CAD6 /* Default@2x.png in Resources */,
+				B409CF7B1793F9510079CAD6 /* Default-568h@2x.png in Resources */,
+				B409CF811793F9510079CAD6 /* ViewController_iPhone.xib in Resources */,
+				B409CF841793F9510079CAD6 /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B409CF5D1793F9510079CAD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B409CF711793F9510079CAD6 /* main.m in Sources */,
+				B409CF751793F9510079CAD6 /* AppDelegate.m in Sources */,
+				B409CF7E1793F9510079CAD6 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B409CF6D1793F9510079CAD6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B409CF6E1793F9510079CAD6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B409CF7F1793F9510079CAD6 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B409CF801793F9510079CAD6 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		B409CF821793F9510079CAD6 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B409CF831793F9510079CAD6 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B409CF851793F9510079CAD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B409CF861793F9510079CAD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B409CF881793F9510079CAD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GitCeshi/GitCeshi-Prefix.pch";
+				INFOPLIST_FILE = "GitCeshi/GitCeshi-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B409CF891793F9510079CAD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GitCeshi/GitCeshi-Prefix.pch";
+				INFOPLIST_FILE = "GitCeshi/GitCeshi-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B409CF5C1793F9510079CAD6 /* Build configuration list for PBXProject "GitCeshi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B409CF851793F9510079CAD6 /* Debug */,
+				B409CF861793F9510079CAD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B409CF871793F9510079CAD6 /* Build configuration list for PBXNativeTarget "GitCeshi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B409CF881793F9510079CAD6 /* Debug */,
+				B409CF891793F9510079CAD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B409CF591793F9510079CAD6 /* Project object */;
+}
