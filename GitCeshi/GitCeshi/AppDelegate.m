@@ -28,6 +28,7 @@
     } else {
         self.viewController = [[[ViewController alloc] initWithNibName:@"ViewController_iPad" bundle:nil] autorelease];
     }
+    //firstBranch改变
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
     return YES;
