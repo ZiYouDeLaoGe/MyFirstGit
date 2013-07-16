@@ -29,6 +29,7 @@
         self.viewController = [[[ViewController alloc] initWithNibName:@"ViewController_iPad" bundle:nil] autorelease];
     }
     //firstBranch改变
+    //这是我的第一个分支现在 所处的位置就是在 FirstBranch分支下
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
     return YES;
